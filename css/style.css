@@ -1,0 +1,123 @@
+@import './normalize.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    transition: background-color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    font-family: "Lato", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+nav,
+main,
+footer {
+    padding: 0 5.6%;
+}
+
+/* header  */
+header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li:nth-child(1) {
+    margin-right: auto;
+}
+
+header nav ul li:nth-child(2) {
+    margin-right: 3rem;
+}
+
+/* main */
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+main ul {
+    display: flex;
+    flex-direction: column;
+}
+
+main ul li {
+    height: 40vh;
+}
+
+main ul li:nth-child(1) {
+    margin-left: auto;
+}
+
+main ul li:nth-child(3) {
+    margin-left: auto;
+}
+
+
+/* footer  */
+
+
+
+/* marquee title animation */
+.marquee {
+    position: relative;
+    overflow: hidden;
+    --offset: 20vw;
+    --move-initial: calc(-25% + var(--offset));
+    --move-final: calc(-50% + var(--offset));
+}
+
+.marquee__inner {
+    width: fit-content;
+    display: flex;
+    position: relative;
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee 10s linear infinite;
+}
+
+.marquee span {
+    font-size: 10vw;
+    padding: 0 2vw;
+}
+
+.marquee:hover .marquee__inner {
+    animation-play-state: running;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(var(--move-initial), 0, 0);
+    }
+
+    100% {
+        transform: translate3d(var(--move-final), 0, 0);
+    }
+}
