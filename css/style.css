@@ -104,7 +104,8 @@ main ul li:nth-child(3) {
 }
 
 .marquee span {
-    font-size: 10vw;
+    font-family: 'Playfair Display', serif;
+    font-size: 14vw;
     padding: 0 2vw;
 }
 
