@@ -1,5 +1,5 @@
 import scrollJacking from './scrollJacking.js';
-
+import customCursor from './customCursor.js';
 
 // change bg color on hover
 const anchors = document.querySelectorAll('.case')
@@ -27,3 +27,4 @@ const changeBg = () => {
 
 changeBg()
 scrollJacking()
+customCursor()
