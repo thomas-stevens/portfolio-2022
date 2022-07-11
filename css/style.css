@@ -99,6 +99,13 @@ main ul {
     row-gap: 15vh;
 }
 
+.item-container{
+    display: flex;
+    contain: content;
+    width: 40vw;
+    height: 30vw;
+}
+
 main ul li a img {
     height: 30vw;
     background-color: red;
