@@ -14,6 +14,12 @@ const changeBg = () => {
             if (bgColor === '#000000') {
                 body.style.color = "#FFF"
             }
+            else if (bgColor === '#E7B873') {
+                body.style.color = "#FFF"
+            }
+            else if (bgColor === '#6C6E7D') {
+                body.style.color = "#FFF"
+            }
         })
         anchor.addEventListener('mouseleave', function () {
             body.style.backgroundColor = ''
