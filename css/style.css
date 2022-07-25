@@ -17,6 +17,7 @@
 
 a {
     color: inherit;
+    text-decoration: none;
 }
 
 h1,
@@ -43,19 +44,8 @@ li a {
     display: inline-block;
 }
 
-/* .content__item {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    counter-increment: itemcounter;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-} */
 
+/* custom hovers */
 .content__item::before {
     /* color: var(--color-number); */
     position: absolute;
@@ -250,9 +240,9 @@ header nav ul li:nth-child(1) {
     margin-right: auto;
 }
 
-header nav ul li:nth-child(2) {
+/* header nav ul li:nth-child(2) {
     margin-right: 3rem;
-}
+} */
 
 /* main */
 main {
@@ -321,21 +311,25 @@ footer {
     height: 100%;
 }
 
+footer .credits{
+    color: #fff;
+    padding: 0 5.6% 5%;
+    font-family: 'Playfair Display', serif;
+}
+
+footer .credits img{
+    margin: -10px 5px;
+    width: 15px;
+}
+
 footer .container{
     max-width: 1000px;
     margin: 0 auto;
     padding: 15em 0 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
-}
-
-
-footer .pf{
-    height: 25%;
-    padding-right: 2rem;
-
 }
 
 footer .container h2{
@@ -345,6 +339,11 @@ footer .container h2{
     height: 20rem;
     width: 90%;
     align-self: flex-start;
+}
+
+footer .pf{
+    height: 25%;
+    padding-right: 2rem;
 }
 
 footer hr{
@@ -379,7 +378,7 @@ footer .container .contact-buttons a:first-child{
 
 .bottom-info{
     display: grid;
-    grid-template-columns: 6fr 1fr;
+    grid-template-columns: 1fr 0fr;
     color: #fff;
     padding-top: 4rem;
 }
@@ -409,7 +408,6 @@ footer .container .contact-buttons a:first-child{
 
 
 /* marquee carousel animation */
-
 @keyframes scroll {
     0% {
         transform: translateX(0);
@@ -444,6 +442,7 @@ footer .container .contact-buttons a:first-child{
 .slider .slide {
     height: 400px;
     width: 400px;
+    transition: .3s ease-in-out;
 }
 
 .slider .slide video{
@@ -490,7 +489,6 @@ footer .container .contact-buttons a:first-child{
 }
 
 /* custom cursor */
-
 #cursor {
     position: fixed;
     z-index: 99;
