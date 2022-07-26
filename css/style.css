@@ -301,6 +301,57 @@ main ul li:nth-child(3) {
     margin-left: auto;
 }
 
+.about{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    gap: 2rem 6rem;
+
+}
+
+.about img{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.about p{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    font-size: 1.5vw;
+}
+
+.about p:nth-of-type(2){
+    font-size: 1rem;
+}
+
+.about .intro{
+    line-height: 2.2vw;
+    font-weight: 300;
+}
+
+.about .about-info{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    margin-left: auto;
+}
+
+.about .about-info .blocks{
+    display: inline-block;
+    padding-left: 4rem;
+}
+
+.about .about-info .blocks p:first-child{
+    color: #878787;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    font-size: .7em;
+}
+
 
 /* footer  */
 footer {
