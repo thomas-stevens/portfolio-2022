@@ -1,12 +1,25 @@
-.background-case img{
+.background-case img {
     position: absolute;
     /* height: 100vh; */
     width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 0;
 }
 
-header{
+.intro-case {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15em 0 0;
     color: #fff;
+    z-index: 1;
+}
+
+header {
+    color: #fff;
+    padding-bottom: 2rem;
 }
