@@ -483,8 +483,8 @@ footer .container .contact-buttons a:first-child{
 }
 
 .slider .slide-track {
-    -webkit-animation: scroll 60s linear infinite;
-    animation: scroll 60s linear infinite;
+    -webkit-animation: scroll 30s linear infinite;
+    animation: scroll 30s linear infinite;
     display: flex;
     justify-content: space-between;
     width: calc(400px * 10);
