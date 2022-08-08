@@ -45,7 +45,7 @@ li a {
 }
 
 
-/* custom hovers */
+/* CUSTOM HOVERS */
 .content__item::before {
     /* color: var(--color-number); */
     position: absolute;
@@ -74,7 +74,7 @@ li a {
 
 .link::before {
     content: '';
-    /* show by default */
+    /* SHOW BY DEFAULT */
 }
 
 .link--metis::before {
@@ -215,7 +215,7 @@ main {
     width: 100%;
 }
 
-/* header  */
+/* HEADER */
 header {
     width: 100%;
     height: 100%;
@@ -244,7 +244,7 @@ header nav ul li:nth-child(1) {
     margin-right: 3rem;
 } */
 
-/* main */
+/* MAIN */
 main {
     width: 100%;
     height: 100%;
@@ -353,7 +353,7 @@ main ul li:nth-child(3) {
 }
 
 
-/* footer  */
+/* FOOTER */
 footer {
     background: #000;
     padding: 5% 0;
@@ -458,7 +458,7 @@ footer .container .contact-buttons a:first-child{
 }
 
 
-/* marquee carousel animation */
+/* MARQUEE CAROUSEL ANIMATION */
 @keyframes scroll {
     0% {
         transform: translateX(0);
@@ -502,7 +502,7 @@ footer .container .contact-buttons a:first-child{
 }
 
 
-/* marquee title animation */
+/* MARQUEE TITLE ANIMATION */
 .marquee {
     position: relative;
     width: var(--marquee-width);
@@ -539,7 +539,7 @@ footer .container .contact-buttons a:first-child{
     }
 }
 
-/* custom cursor */
+/* CUSTOM CURSOR */
 #cursor {
     position: fixed;
     z-index: 99;
