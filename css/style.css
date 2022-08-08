@@ -251,7 +251,7 @@ header {
 
 header p {
     padding: 4% 5.6% 0;
-    font-size: 2vmin;
+    font-size: 3.5vmin;
     width: 50vw;
     font-weight: 400;
 }
@@ -309,7 +309,7 @@ main ul li a div {
 
 main ul li a div p {
     padding: 0 .5rem;
-    /* font-size: .8rem; */
+    font-size: 1vmin;
     /* color: #737373; */
 }
 
@@ -462,14 +462,14 @@ footer .container .contact-buttons a:first-child {
     color: #878787;
     text-transform: uppercase;
     padding-bottom: 1rem;
-    /* font-size: .7em; */
+    font-size: .9vmin;
 }
 
 .bottom-info .social p {
     color: #878787;
     text-transform: uppercase;
     padding-bottom: 1rem;
-    /* font-size: .7em; */
+    font-size: .9vmin;
 }
 
 .bottom-info .social a {
