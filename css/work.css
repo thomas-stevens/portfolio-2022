@@ -1,11 +1,22 @@
 .background-case img {
     position: absolute;
-    /* height: 100vh; */
-    width: 100%;
+    height: 100vh;
+    /* width: 100%; */
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;
+}
+
+header {
+    color: #fff;
+    padding-bottom: 2rem;
+}
+
+main {
+    margin-top: 20vh;
+    /* height: 100vh; */
+    justify-content: center;
 }
 
 .intro-case {
@@ -14,12 +25,35 @@
     flex-direction: column;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 15em 0 0;
+    /* padding: 15em 0 0; */
     color: #fff;
     z-index: 1;
 }
 
-header {
-    color: #fff;
-    padding-bottom: 2rem;
+.intro-case p {
+    font-size: .7rem;
+    font-weight: 600;
+}
+
+.intro-case h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.intro-case div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.intro-case div p:nth-child(1) {
+    padding-left: 0;
+}
+
+.intro-case div p {
+    padding: 0 0.5rem;
+    font-size: .8rem;
+    font-weight: 300;
 }
