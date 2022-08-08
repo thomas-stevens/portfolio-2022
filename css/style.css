@@ -465,7 +465,7 @@ footer .container .contact-buttons a:first-child{
     }
 
     100% {
-        transform: translateX(calc(-750px * 4));
+        transform: translateX(calc(-750px * 2));
     }
 }
 
@@ -483,8 +483,8 @@ footer .container .contact-buttons a:first-child{
 }
 
 .slider .slide-track {
-    -webkit-animation: scroll 40s linear infinite;
-    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 60s linear infinite;
+    animation: scroll 60s linear infinite;
     display: flex;
     justify-content: space-between;
     width: calc(400px * 10);
