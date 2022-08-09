@@ -126,3 +126,11 @@ main {
 .about-case .about-info .blocks a{
     font-family: 'Playfair Display', serif;
 }
+
+.about-case span{
+    font-family: 'Playfair Display', serif;
+    font-size: 4vmin;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+}
