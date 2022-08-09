@@ -79,7 +79,7 @@ main {
 .about-case {
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
-    gap: 6rem 6rem;
+    gap: 8rem 6rem;
     padding: 0 15%;
 }
 
