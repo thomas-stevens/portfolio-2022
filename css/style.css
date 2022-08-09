@@ -292,7 +292,6 @@ main ul {
 
 main ul li a img {
     height: 30vw;
-    background-color: red;
     width: 40vw;
 }
 
@@ -621,4 +620,81 @@ footer .container .contact-buttons a:first-child {
         background-color: rgba(227, 222, 193, 0.08);
         border-color: transparent;
     }
+}
+
+
+@media only screen and (max-width: 425px) {
+    header p{
+        font-size: 4.5vmin;
+        width: 100vw;
+    }
+
+    main ul{
+        row-gap: 9vh;
+    }
+
+    .item-container{
+        width: 100%;
+        /* height: 50vw; */
+    }
+
+    main ul li a img {
+        width: 89vw;
+        height: 100%;
+    }
+
+    main ul li a div p {
+        font-size: 2vmin;
+    }
+
+    footer{
+        margin-top: 5rem;
+    }
+
+    footer .credits {
+        padding: 0 5.6% 9%;
+    }
+
+    footer .container{
+        padding: 20% 5.6% 10%;
+    }
+
+    footer .container h2{
+        font-size: 13vmin;
+        width: 100%;
+        height: 12rem;
+    }
+
+    footer .container .contact-buttons a{
+        font-size: .7rem;
+    }
+
+    footer hr{
+        width: auto;
+    }
+
+    footer .pf{
+        height: 19%;
+    }
+
+    footer .container .contact-buttons{
+        padding: 4em 0;
+    }
+    
+    footer .bottom-info{
+        padding: 0;
+    }
+
+    .bottom-info .version p:first-child{
+        font-size: 2vmin;
+    }
+
+    .bottom-info .version p:last-child{
+        font-size: 2vmin;
+    }
+
+    .bottom-info .social p{
+        font-size: 2vmin;
+    }
+    
 }
