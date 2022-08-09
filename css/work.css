@@ -38,18 +38,18 @@ main {
 }
 
 .intro-case p {
-    font-size: 1.2vmin;
+    font-size: 1em;
     font-weight: 600;
 }
 
-.intro-case h2{
+.intro-case h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 3.5rem;
+    font-size: 3.5em;
     font-weight: 600;
     padding: 1rem 0;
 }
 
-.intro-case div{
+.intro-case div {
     display: flex;
     flex-direction: row;
     margin-top: 1rem;
@@ -61,16 +61,16 @@ main {
 
 .intro-case div p {
     padding: 0 0.5rem;
-    font-size: .8rem;
+    font-size: 0.8em;
     font-weight: 300;
 }
 
-.video-case{ 
+.video-case {
     z-index: 2;
     margin: 15rem 0 0;
 }
 
-.video-case video{ 
+.video-case video {
     display: grid;
     width: 85%;
     margin: 0 auto;
@@ -101,7 +101,7 @@ main {
 .about-case .intro {
     line-height: 1.5;
     font-weight: 300;
-    font-size: 1.5vmin;
+    font-size: 1.4em;
 }
 
 .about-case .about-info {
@@ -116,20 +116,32 @@ main {
     padding-left: 4rem;
 }
 
-.about-case .about-info .blocks p:first-child {
+.about-case .about-info .blocks p:nth-child(1) {
     color: #878787;
     text-transform: uppercase;
     padding-bottom: 1rem;
-    font-size: .9vmin;
+    font-size: 0.75em;
 }
 
-.about-case .about-info .blocks a{
+.about-case .about-info .blocks p:nth-child(2) {
+    font-size: 1.4em;
+}
+
+ul.deliverables {
+    display: block;
+}
+
+.about-case .about-info .blocks .deliverables li {
+    font-size: 1.4em;
+}
+
+.about-case .about-info .blocks a {
     font-family: 'Playfair Display', serif;
 }
 
-.about-case span{
+.about-case span {
     font-family: 'Playfair Display', serif;
-    font-size: 4vmin;
+    font-size: 3.5em;
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 3;
