@@ -229,7 +229,7 @@ main ul li:nth-child(3) {
 
 .about {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 25% 25% 20% 20% 10%;
     gap: 2rem 6rem;
 
 }
@@ -539,13 +539,14 @@ footer .container .contact-buttons a:first-child {
 @keyframes marquee {
     0% {
         transform: translate3d(var(--move-initial), 0, 0);
+        /* font-variation-settings: "wght" 100, "Lato" 100; */
     }
 
     100% {
         transform: translate3d(var(--move-final), 0, 0);
+        /* font-variation-settings: "wght" 600, "Lato" 600; */
     }
 }
-
 
 @keyframes glitchLine {
     0% {
@@ -659,6 +660,10 @@ footer .container .contact-buttons a:first-child {
 
     header p {
         width: 35vw;
+    }
+
+    .about .intro {
+        font-size: 2.5em;
     }
 
 }

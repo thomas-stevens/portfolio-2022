@@ -122,7 +122,7 @@ main {
     color: #878787;
     text-transform: uppercase;
     padding-bottom: 1rem;
-    font-size: 0.75em;
+    font-size: 0.8em;
 }
 
 .about-case .about-info .blocks p:nth-child(2) {
@@ -160,28 +160,56 @@ ul.deliverables {
     gap: 0 6rem;
     width: 85%;
     margin: 0 auto;
-    padding: 10rem 0;
-}
-
-.show-case p:nth-child(1){
-    grid-column-start: 1;
-    grid-column-end: 2;
+    padding: 0 0 10rem;
 }
 
 .show-case h3{
     grid-column-start: 1;
     grid-column-end: 2;
+    padding: .5rem 0;
+    font-size: 1.5em;
 }
 
-.show-case p:nth-child(2){
+.show-case p{
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.show-case p:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 2;
+    color: #878787;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.show-case p:nth-child(3){
     grid-column-start: 1;
     grid-column-end: 2;
 }
 
-.show-case p:nth-child(3){
+.show-case p:nth-child(4){
     grid-column-start: 2;
     grid-column-end: 2;
 }
+
+.show-case img{
+    width: 100%;
+}
+
+.show-case img:first-of-type{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 4rem 0; 
+}
+
+.show-case img:last-of-type{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
 
 
 
@@ -201,6 +229,14 @@ ul.deliverables {
 
     .about-case {
         width: 1400px;
+    }
+
+    .show-case p{
+        font-size: 1.5em;
+    }
+
+    .show-case h3{
+        font-size: 2em;
     }
 
 }
