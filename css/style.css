@@ -653,12 +653,18 @@ footer .container .contact-buttons a:first-child {
     }
 }
 
+@media only screen and (min-width: 1800px) {
 
+    header p {
+        width: 35vw;
+    }
+
+}
 
 /* RESPONSIVE TABLET */
 
 
-@media only screen and (max-width: 912px) {
+@media only screen and (max-width: 1180px) {
     header p {
         font-size: 2em;
         width: 100vw;
@@ -722,7 +728,7 @@ footer .container .contact-buttons a:first-child {
     footer .container h2 {
         font-size: 8em;
         width: 100%;
-        height: 25rem;
+        height: 21rem;
     }
 
     footer .container .contact-buttons a {
@@ -734,7 +740,7 @@ footer .container .contact-buttons a:first-child {
     }
 
     footer .pf {
-        height: 19%;
+        height: 27%;
     }
 
     footer .container .contact-buttons {
@@ -760,8 +766,68 @@ footer .container .contact-buttons a:first-child {
     .bottom-info .social p {
         font-size: 1em;
     }
+
+    .about {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 2rem 6rem;
+    
+    }
+    
+    .about img {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    
+    .about p {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        font-size: 1.5em;
+    }
+    
+    .about .intro {
+        line-height: 1.5;
+        font-weight: 300;
+        font-size: 2em;
+    }
+    
+    .about .about-info {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        margin-left: 0;
+    }
+    
+    .about .about-info .blocks {
+        display: inline-block;
+        padding: 0;
+    }
+
+    .about .about-info .blocks:nth-child(2) {
+        padding-left: 4rem;
+    }
+    
+    .about .about-info .blocks p:first-child {
+        color: #878787;
+        text-transform: uppercase;
+        padding-bottom: 1rem;
+        font-size: 1em;
+    }
 }
 
+
+/* RESPONSIVE OVERIG */
+
+@media only screen and (max-width: 950px) {
+
+    footer .container h2 {
+        font-size: 6.5em;
+        width: 100%;
+        height: 21rem;
+    }
+
+}
 
 
 
@@ -780,6 +846,10 @@ footer .container .contact-buttons a:first-child {
 
     main ul {
         row-gap: 9vh;
+    }
+
+    main ul li a h3 {
+        font-size: 2em;
     }
 
     .item-container {
@@ -866,4 +936,54 @@ footer .container .contact-buttons a:first-child {
     .bottom-info .social p {
         font-size: .7em;
     }
+
+
+    .about {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 2rem 6rem;
+    
+    }
+    
+    .about img {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    
+    .about p {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        font-size: 1em;
+    }
+    
+    .about .intro {
+        line-height: 1.5;
+        font-weight: 300;
+        font-size: 1.2em;
+    }
+    
+    .about .about-info {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        margin-left: 0;
+    }
+    
+    .about .about-info .blocks {
+        display: inline-block;
+        padding: 0;
+    }
+
+    .about .about-info .blocks:nth-child(2) {
+        padding-left: 3rem;
+    }
+    
+    .about .about-info .blocks p:first-child {
+        color: #878787;
+        text-transform: uppercase;
+        padding-bottom: 1rem;
+        font-size: .75em;
+    }
+
 }
