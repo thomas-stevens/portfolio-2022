@@ -1,19 +1,19 @@
 /* ACHTERGROND CASE */
 
-/* .background-case img {
+.background-case img {
     position: absolute;
     height: 100vh;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;
-} */
+}
 
-.background-case video {
+/* .background-case video {
     position: absolute;
     width: 100%;
     z-index: 0;
-}
+} */
 
 header {
     color: #fff;
@@ -67,7 +67,7 @@ main {
 
 .video-case {
     z-index: 2;
-    margin: 15rem 0 0;
+    margin: 10% 0 0;
 }
 
 .video-case video {
@@ -80,7 +80,9 @@ main {
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
     gap: 8rem 6rem;
-    padding: 0 15%;
+    width: 1000px;
+    margin: 0 auto;
+    /* padding: 0 15%; */
 }
 
 .about-case img {
@@ -108,11 +110,11 @@ main {
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 2;
-    margin-left: auto;
+    /* margin-left: auto; */
 }
 
 .about-case .about-info .blocks {
-    display: inline-block;
+    display: inline-table;
     padding-left: 4rem;
 }
 
@@ -124,7 +126,7 @@ main {
 }
 
 .about-case .about-info .blocks p:nth-child(2) {
-    font-size: 1.4em;
+    font-size: 1em;
 }
 
 ul.deliverables {
@@ -132,7 +134,7 @@ ul.deliverables {
 }
 
 .about-case .about-info .blocks .deliverables li {
-    font-size: 1.4em;
+    font-size: 1em;
 }
 
 .about-case .about-info .blocks a {
@@ -145,4 +147,60 @@ ul.deliverables {
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 3;
+}
+
+.explain-case img{
+    padding: 10rem 0;
+    width: 100%;
+}
+
+.show-case{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 6rem;
+    width: 85%;
+    margin: 0 auto;
+    padding: 10rem 0;
+}
+
+.show-case p:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.show-case h3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.show-case p:nth-child(2){
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.show-case p:nth-child(3){
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE MONITOR */
+
+@media only screen and (min-width: 1800px) {
+
+    .about-case {
+        width: 1400px;
+    }
+
 }
