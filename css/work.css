@@ -356,7 +356,12 @@ ul.deliverables {
     padding-bottom: 4rem;
 }
 
-
+main ul{
+    column-gap: 10rem;
+    row-gap: 0;
+    flex-direction: row;
+    margin-right: auto;
+}
 
 
 
