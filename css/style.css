@@ -666,6 +666,13 @@ footer .container .contact-buttons a:first-child {
         font-size: 2.5em;
     }
 
+    .slider .slide-track {
+        -webkit-animation: scroll 30s linear infinite;
+        animation: scroll 30s linear infinite;
+        display: flex;
+        justify-content: space-between;
+        width: calc(400px * 10);
+    }
 }
 
 /* RESPONSIVE TABLET */
