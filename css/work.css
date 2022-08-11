@@ -130,6 +130,11 @@ main {
     font-size: 1em;
 }
 
+.about-case .about-info .blocks a {
+    margin-bottom: .5em;
+    display: block;
+}
+
 ul.deliverables {
     display: block;
 }
@@ -196,6 +201,12 @@ ul.deliverables {
     grid-column-end: 2;
 }
 
+.show-case figcaption{
+    color: #878787;
+    font-family: 'Playfair Display', serif;
+    padding: 1rem 0 4rem;
+}
+
 .show-case img {
     width: 100%;
 }
@@ -203,7 +214,7 @@ ul.deliverables {
 .show-case img:first-of-type {
     grid-column-start: 1;
     grid-column-end: 3;
-    padding: 4rem 0;
+    padding: 4rem 0 0;
 }
 
 .show-case img:last-of-type {
