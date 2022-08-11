@@ -2,7 +2,8 @@
 
 .background-case img {
     position: absolute;
-    height: 100vh;
+    /* height: 100vh; */
+    width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -149,12 +150,12 @@ ul.deliverables {
     grid-row-start: 3;
 }
 
-.explain-case img{
+.explain-case img {
     padding: 10rem 0;
     width: 100%;
 }
 
-.show-case{
+.show-case {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0 6rem;
@@ -163,20 +164,20 @@ ul.deliverables {
     padding: 0 0 10rem;
 }
 
-.show-case h3{
+.show-case h3 {
     grid-column-start: 1;
     grid-column-end: 2;
     padding: .5rem 0;
     font-size: 1.5em;
 }
 
-.show-case p{
+.show-case p {
     line-height: 1.5;
     font-weight: 300;
     font-size: 1em;
 }
 
-.show-case p:nth-child(1){
+.show-case p:nth-child(1) {
     grid-column-start: 1;
     grid-column-end: 2;
     color: #878787;
@@ -184,35 +185,176 @@ ul.deliverables {
     font-size: 0.8em;
 }
 
-.show-case p:nth-child(3){
+.show-case p:nth-child(3) {
     grid-column-start: 1;
     grid-column-end: 2;
 }
 
-.show-case p:nth-child(4){
+.show-case p:nth-child(4) {
     grid-column-start: 2;
     grid-column-end: 2;
 }
 
-.show-case img{
+.show-case img {
     width: 100%;
 }
 
-.show-case img:first-of-type{
+.show-case img:first-of-type {
     grid-column-start: 1;
     grid-column-end: 3;
-    padding: 4rem 0; 
+    padding: 4rem 0;
 }
 
-.show-case img:last-of-type{
+.show-case img:last-of-type {
     grid-column-start: 1;
     grid-column-end: 3;
 }
 
 
 
+.branding-case {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 0 6rem;
+    width: 85%;
+    margin: 0 auto;
+    padding: 0 0 10rem;
+}
+
+.branding-case h3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: .5rem 0;
+    font-size: 1.5em;
+}
+
+.branding-case p {
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.branding-case p:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    color: #878787;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.branding-case p:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.branding-case img {
+    width: 100%;
+}
+
+.branding-case img:first-of-type {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-bottom: 4rem;
+}
+
+.branding-case img:last-of-type {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
 
 
+
+.app-design-case {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 0 6rem;
+    width: 85%;
+    margin: 0 auto;
+    padding: 0 0 10rem;
+}
+
+.app-design-case h3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding: .5rem 0;
+    font-size: 1.5em;
+}
+
+.app-design-case p {
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.app-design-case p:nth-child(2) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: #878787;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.app-design-case p:nth-child(4) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.app-design-case img {
+    width: 100%;
+}
+
+.app-design-case img:first-of-type {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding-bottom: 4rem;
+}
+
+
+
+.motion-case {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 0 6rem;
+    width: 85%;
+    margin: 0 auto;
+    padding: 0 0 10rem;
+}
+
+.motion-case h3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding: .5rem 0;
+    font-size: 1.5em;
+}
+
+.motion-case p {
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.motion-case p:nth-child(2) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: #878787;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.motion-case p:nth-child(4) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.motion-case img {
+    width: 100%;
+}
+
+.motion-case img:first-of-type {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding-bottom: 4rem;
+}
 
 
 
@@ -231,11 +373,35 @@ ul.deliverables {
         width: 1400px;
     }
 
-    .show-case p{
+    .show-case p {
         font-size: 1.5em;
     }
 
-    .show-case h3{
+    .show-case h3 {
+        font-size: 2em;
+    }
+
+    .branding-case p {
+        font-size: 1.5em;
+    }
+
+    .branding-case h3 {
+        font-size: 2em;
+    }
+
+    .app-design-case p {
+        font-size: 1.5em;
+    }
+
+    .app-design-case h3 {
+        font-size: 2em;
+    }
+
+    .motion-case p {
+        font-size: 1.5em;
+    }
+
+    .motion-case h3 {
         font-size: 2em;
     }
 
