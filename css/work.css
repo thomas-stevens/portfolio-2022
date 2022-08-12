@@ -195,7 +195,7 @@ ul.deliverables {
     grid-column-end: 2;
 }
 
-.show-case figcaption{
+.show-case figcaption {
     color: #878787;
     font-family: 'Playfair Display', serif;
     padding: 1rem 0 4rem;
@@ -363,11 +363,14 @@ ul.deliverables {
     padding-bottom: 4rem;
 }
 
-main ul{
-    column-gap: 10rem;
+main ul {
     row-gap: 0;
     flex-direction: row;
-    margin-right: auto;
+    justify-content: space-between;
+}
+
+main ul li:nth-child(1){
+    margin: 0;
 }
 
 
@@ -411,6 +414,131 @@ main ul{
 
     .motion-case h3 {
         font-size: 2em;
+    }
+
+}
+
+
+/* RESPONSIVE DESKTOP */
+
+@media only screen and (max-width: 1440px) {
+
+    .background-case img {
+        width: auto;
+        height: 100vh;
+    }
+
+    .about-case {
+        grid-template-columns: auto;
+    }
+
+}
+
+
+
+/* RESPONSIVE TABLET - LANDSCAPE */
+
+@media only screen and (max-width: 1180px) {
+
+    .video-case video {
+        width: 100%;
+    }
+
+    .about-case .about-info .blocks:first-of-type {
+        padding-left: 0;
+    }
+
+    .about-case {
+        grid-template-columns: auto;
+        width: auto;
+        gap: 3rem 0rem;
+    }
+
+    .about-case .about-info {
+        grid-column-start: 1;
+    }
+
+    .about-case p {
+        grid-row-start: 3;
+        grid-column-end: 4;
+    }
+
+    .about-case span {
+        font-size: 3em;
+        margin-right: 5rem;
+        grid-row-start: 4;
+    }
+
+    main ul {
+        flex-direction: column;
+    }
+
+    main ul li .case:nth-child(1){
+        margin-bottom: 5rem;
+    }
+}
+
+
+
+/* RESPONSIVE TABLET - PORTRAIT */
+
+@media only screen and (max-width: 768px) {
+
+    main {
+        margin-top: 10vh;
+    }
+
+    .about-case p {
+        grid-column-end: 5;
+    }
+
+    .about-case span {
+        margin-right: 0;
+        font-size: 2.5em;
+    }
+
+    .about-case .about-info .blocks {
+        padding-left: 2rem;
+    }
+
+}
+
+
+/* RESPONSIVE OVERIG */
+
+@media only screen and (max-width: 550px) {
+
+    .background-case img {
+        height: 85vh;
+    }
+
+    .intro-case p {
+        font-size: .8em;
+    }
+
+    .intro-case h2 {
+        font-size: 2.5em;
+    }
+
+    .explain-case img{
+        padding: 5rem 0;
+    }
+
+}
+
+
+
+/* RESPONSIVE MOBILE */
+
+@media only screen and (max-width: 425px) {
+
+    .about-case .intro {
+        font-size: 1.2em;
+    }
+
+    .about-case span {
+        font-size: 1.6em;
+        line-height: 1.2;
     }
 
 }
