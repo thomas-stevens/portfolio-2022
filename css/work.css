@@ -217,9 +217,10 @@ ul.deliverables {
     padding: 4rem 0 0;
 }
 
-.show-case img:last-of-type {
+.show-case video {
     grid-column-start: 1;
     grid-column-end: 3;
+    width: 100%;
 }
 
 
