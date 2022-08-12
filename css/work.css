@@ -530,7 +530,7 @@ main ul li:nth-child(1){
 
 /* RESPONSIVE MOBILE */
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 450px) {
 
     .about-case .intro {
         font-size: 1.2em;
