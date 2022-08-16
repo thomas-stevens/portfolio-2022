@@ -200,7 +200,7 @@ main ul li a img {
 
 main ul li a h3 {
     margin-top: 1.5rem;
-    font-size: 3em;
+    font-size: 2.3em;
 }
 
 main ul li a div {
@@ -715,7 +715,7 @@ footer .container .contact-buttons a:first-child {
     }
 
     main ul li a h3 {
-        font-size: 3em;
+        font-size: 2.3em;
     }
 
     footer {
@@ -944,10 +944,6 @@ footer .container .contact-buttons a:first-child {
 
     main ul {
         row-gap: 9vh;
-    }
-
-    main ul li a h3 {
-        font-size: 1.5em;
     }
 
     .item-container {
