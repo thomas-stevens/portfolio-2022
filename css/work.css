@@ -594,6 +594,10 @@ main ul li:nth-child(1){
         padding: 5rem 0;
     }
 
+    .show-case{
+        padding: 0 0 3rem;
+    }
+
 }
 
 
