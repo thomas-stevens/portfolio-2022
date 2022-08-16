@@ -272,7 +272,7 @@ main ul li:nth-child(3) {
     color: #878787;
     text-transform: uppercase;
     padding-bottom: 1rem;
-    font-size: .75em;
+    font-size: .7em;
 }
 
 
@@ -363,7 +363,7 @@ footer .container .contact-buttons a:first-child {
     color: #878787;
     text-transform: uppercase;
     padding-bottom: 1rem;
-    font-size: .75em;
+    font-size: .7em;
 }
 
 .bottom-info .version p:nth-child(2) {
@@ -377,7 +377,7 @@ footer .container .contact-buttons a:first-child {
     color: #878787;
     text-transform: uppercase;
     padding-bottom: 1rem;
-    font-size: .75em;
+    font-size: .7em;
 }
 
 .bottom-info .social a {
@@ -742,11 +742,11 @@ footer .container .contact-buttons a:first-child {
     footer .container h2 {
         font-size: 8em;
         width: 100%;
-        height: 21rem;
+        height: 18rem;
     }
 
     footer .container .contact-buttons a {
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     footer hr {
@@ -766,19 +766,19 @@ footer .container .contact-buttons a:first-child {
     }
 
     .bottom-info .version p:first-child {
-        font-size: 1em;
+        font-size: .7em;
     }
 
     .bottom-info .version p:last-child {
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     .bottom-info .social a:first-of-type {
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     .bottom-info .social p {
-        font-size: 1em;
+        font-size: .7em;
     }
 
     .about {
@@ -838,7 +838,19 @@ footer .container .contact-buttons a:first-child {
     footer .container h2 {
         font-size: 6.5em;
         width: 100%;
-        height: 21rem;
+        height: 18rem;
+    }
+
+}
+
+
+/* RESPONSIVE TABLET */
+
+@media only screen and (max-width: 768px) {
+
+    footer .container h2 {
+        font-size: 5em;
+        height: 18rem;
     }
 
 }
@@ -997,7 +1009,7 @@ footer .container .contact-buttons a:first-child {
         color: #878787;
         text-transform: uppercase;
         padding-bottom: 1rem;
-        font-size: .75em;
+        font-size: .7em;
     }
 
 }

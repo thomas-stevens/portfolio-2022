@@ -199,6 +199,8 @@ ul.deliverables {
     color: #878787;
     font-family: 'Playfair Display', serif;
     padding: 1rem 0 4rem;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 .show-case img {
@@ -476,6 +478,58 @@ main ul li:nth-child(1){
     main ul li .case:nth-child(1){
         margin-bottom: 5rem;
     }
+
+    .show-case{
+        margin: 0;
+        width: 100%;
+    }
+
+    .branding-case{
+        margin: 0;
+        width: 100%;
+        gap: 0 3rem;
+    }
+
+    .app-design-case{
+        margin: 0;
+        width: 100%;
+        gap: 0 3rem;
+    }
+    
+    .motion-case{
+        margin: 0;
+        width: 100%;
+        gap: 0 3rem;
+    }
+}
+
+
+/* RESPONSIVE OVERIG */
+
+@media only screen and (max-width: 900px) {
+
+    .branding-case{
+        grid-template-columns: 100%;
+        padding: 0 0 3rem;
+    }
+
+    .app-design-case{
+        grid-template-columns: 100%;
+        margin: 0 0 3rem;
+    }
+
+    .app-design-case img:first-of-type {
+        padding-bottom: 2rem;
+    }
+    
+    .motion-case{
+        grid-template-columns: 100%;
+    }
+
+    .motion-case img:first-of-type {
+        padding-bottom: 2rem;
+    }
+
 }
 
 
@@ -499,6 +553,22 @@ main ul li:nth-child(1){
 
     .about-case .about-info .blocks {
         padding-left: 2rem;
+    }
+
+    .show-case h3 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .show-case p:nth-child(3) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        padding-bottom: 1rem;
+    }
+
+    .show-case p:nth-child(4) {
+        grid-column-start: 1;
+        grid-column-end: 3;
     }
 
 }
