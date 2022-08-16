@@ -3,6 +3,7 @@
     height: 100vh;
     position: absolute;
     width: 100%;
+    z-index: -1;
 }
 
 header {
@@ -10,7 +11,26 @@ header {
     padding-bottom: 2rem;
 }
 
+.video-case img {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+}
+
 .intro-case {
     color: #7685BC;
 }
 
+
+
+
+
+/* RESPONSIVE TABLET - LANDSCAPE */
+
+@media only screen and (max-width: 1180px) {
+
+    .video-case img {
+        width: 100%;
+    }
+
+}
