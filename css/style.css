@@ -200,7 +200,7 @@ main ul li a img {
 
 main ul li a h3 {
     margin-top: 1.5rem;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 main ul li a div {
@@ -681,7 +681,7 @@ footer .container .contact-buttons a:first-child {
 @media only screen and (max-width: 1180px) {
     header p {
         font-size: 2em;
-        width: 100vw;
+        width: 80vw;
     }
 
     .marquee span {
@@ -711,7 +711,7 @@ footer .container .contact-buttons a:first-child {
     }
 
     main ul li a div p {
-        font-size: 1em;
+        font-size: .7em;
     }
 
     main ul li a h3 {
@@ -856,48 +856,10 @@ footer .container .contact-buttons a:first-child {
 }
 
 
-
-/* RESPONSIVE MOBILE */
-
-
-@media only screen and (max-width: 450px) {
-    header p {
-        font-size: 1.5em;
-        width: 90vw;
-    }
-
-    .marquee span {
-        font-size: 5em;
-    }
-
-    main ul {
-        row-gap: 9vh;
-    }
-
+@media only screen and (max-width: 550px) {
+    
     main ul li a h3 {
-        font-size: 2em;
-    }
-
-    .item-container {
-        width: 100%;
-        height: auto;
-    }
-
-    .item-container video{
-        width: 100%;
-    }
-
-    main ul li:nth-child(1){
-        margin: 0;
-    }
-
-    main ul li a img {
-        width: 89vw;
-        height: 100%;
-    }
-
-    main ul li a div p {
-        font-size: .7em;
+        font-size: 1.5em;
     }
 
     footer {
@@ -960,6 +922,53 @@ footer .container .contact-buttons a:first-child {
     }
 
     .bottom-info .social p {
+        font-size: .7em;
+    }
+
+}
+
+
+
+/* RESPONSIVE MOBILE */
+
+
+@media only screen and (max-width: 450px) {
+    header p {
+        font-size: 1.5em;
+        width: 90vw;
+    }
+
+    .marquee span {
+        font-size: 5em;
+    }
+
+    main ul {
+        row-gap: 9vh;
+    }
+
+    main ul li a h3 {
+        font-size: 1.5em;
+    }
+
+    .item-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .item-container video{
+        width: 100%;
+    }
+
+    main ul li:nth-child(1){
+        margin: 0;
+    }
+
+    main ul li a img {
+        width: 89vw;
+        height: 100%;
+    }
+
+    main ul li a div p {
         font-size: .7em;
     }
 

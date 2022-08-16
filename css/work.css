@@ -71,6 +71,12 @@ main {
     margin: 0 auto;
 }
 
+.video-case img {
+    display: grid;
+    width: 85%;
+    margin: 0 auto;
+}
+
 .about-case {
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
@@ -126,7 +132,7 @@ main {
 
 .about-case .about-info .blocks a {
     margin-bottom: .5em;
-    display: block;
+    /* display: block; */
 }
 
 ul.deliverables {
@@ -507,6 +513,10 @@ main ul li:nth-child(1){
 /* RESPONSIVE OVERIG */
 
 @media only screen and (max-width: 900px) {
+
+    .explain-case img {
+        padding: 5rem 0;
+    }
 
     .branding-case{
         grid-template-columns: 100%;

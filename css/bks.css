@@ -1,0 +1,16 @@
+.color-case{
+    background-color: #fff;
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+
+header {
+    color: #7685BC;
+    padding-bottom: 2rem;
+}
+
+.intro-case {
+    color: #7685BC;
+}
+
