@@ -516,6 +516,10 @@ main ul li:nth-child(1){
         padding: 5rem 0;
     }
 
+    .explain-case video {
+        padding: 5rem 0;
+    }
+
     .branding-case{
         grid-template-columns: 100%;
         padding: 0 0 3rem;
