@@ -1,0 +1,50 @@
+.color-case{
+    background-color: #0202FF;
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+header {
+    color: #FFF;
+    padding-bottom: 2rem;
+}
+
+.video-case img {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.intro-case {
+    color: #FFF;
+}
+
+.explain-case video {
+    padding: 10rem 0;
+    width: 100%;
+}
+
+.show-case {
+    padding: 0 0 7rem;
+}
+
+.show-case img:first-of-type {
+    padding: 4rem 0 4rem;
+}
+
+figcaption {
+    padding: 1rem 0;
+}
+
+
+/* RESPONSIVE TABLET - LANDSCAPE */
+
+@media only screen and (max-width: 1180px) {
+
+    .video-case img {
+        width: 100%;
+    }
+
+}
