@@ -199,7 +199,7 @@ ul.deliverables {
     grid-column-end: 2;
 }
 
-.show-case figcaption {
+figcaption {
     color: #878787;
     font-family: 'Playfair Display', serif;
     padding: 1rem 0 4rem;

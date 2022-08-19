@@ -1,5 +1,5 @@
 .color-case{
-    background-color: #fff;
+    background-color: #00091C;
     height: 100vh;
     position: absolute;
     width: 100%;
@@ -7,18 +7,22 @@
 }
 
 header {
-    color: #7685BC;
+    color: #BFFF00;
     padding-bottom: 2rem;
+}
+
+.video-case {
+    margin: 4% 0 0;
 }
 
 .video-case img {
     display: grid;
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
 }
 
 .intro-case {
-    color: #7685BC;
+    color: #BFFF00;
 }
 
 .explain-case video {
