@@ -30,6 +30,11 @@ header {
     padding: 0 0 7rem;
 }
 
+.show-case img {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
 .show-case img:first-of-type {
     padding: 4rem 0 4rem;
 }
