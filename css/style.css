@@ -886,7 +886,7 @@ footer .container .contact-buttons a:first-child {
     footer .container h2 {
         font-size: 3.2em;
         width: 100%;
-        height: 11rem;
+        height: 9rem;
     }
 
     footer .container .contact-buttons a {
@@ -898,11 +898,11 @@ footer .container .contact-buttons a:first-child {
     }
 
     footer .pf {
-        height: 19%;
+        height: 25%;
     }
 
     footer .container .contact-buttons {
-        padding: 3.5em 0;
+        padding: 3rem 0 5rem;
     }
 
     footer .bottom-info {

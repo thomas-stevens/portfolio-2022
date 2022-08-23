@@ -21,15 +21,6 @@ header {
     color: #FFF;
 }
 
-.explain-case video {
-    padding: 10rem 0;
-    width: 100%;
-}
-
-.show-case {
-    padding: 0 0 7rem;
-}
-
 .show-case img {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -53,6 +44,34 @@ figcaption {
     }
 
 }
+
+
+@media only screen and (max-width: 900px) {
+
+    .show-case img:first-of-type {
+        padding: 2rem 0;
+    }
+
+    .motion-case div{
+        grid-row-start: 1;
+        padding: 5rem 0 2rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .show-case p:nth-child(3) {
+        padding-bottom: 0;
+    }
+
+    .color-case {
+        height: 80vh;
+    }
+
+}
+
 
 @media only screen and (max-width: 550px) {
 
