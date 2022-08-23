@@ -25,12 +25,6 @@ header {
     padding-bottom: 5em;
 } */
 
-
-.explain-case video {
-    padding: 10rem 0;
-    width: 100%;
-}
-
 .show-case {
     padding: 0 0 7rem;
 }
@@ -50,6 +44,15 @@ figcaption {
 
     .video-case img {
         width: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width: 550px) {
+
+    .explain-case img{
+        display: grid!important;
     }
 
 }

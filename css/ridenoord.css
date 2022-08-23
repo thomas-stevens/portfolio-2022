@@ -56,3 +56,11 @@ figcaption {
     }
 
 }
+
+@media only screen and (max-width: 550px) {
+
+    .explain-case img{
+        display: grid!important;
+    }
+
+}
