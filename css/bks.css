@@ -47,6 +47,10 @@ figcaption {
         padding: 2rem 0;
     }
 
+    .show-case p:nth-child(3){
+        grid-column-end: 3;
+    }
+
 }
 
 

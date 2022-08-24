@@ -796,7 +796,7 @@ footer .container .contact-buttons a:first-child {
         grid-column-start: 1;
         grid-column-end: 1;
         grid-row-start: 3;
-        font-size: 1.5em;
+        /* font-size: 1.5em; */
     }
     
     .about .intro {
@@ -821,12 +821,12 @@ footer .container .contact-buttons a:first-child {
         padding-left: 4rem;
     }
     
-    .about .about-info .blocks p:first-child {
+    /* .about .about-info .blocks p:first-child {
         color: #878787;
         text-transform: uppercase;
         padding-bottom: 1rem;
         font-size: 1em;
-    }
+    } */
 }
 
 
