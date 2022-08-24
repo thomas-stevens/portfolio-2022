@@ -430,7 +430,6 @@ main ul li:nth-child(1){
 @media only screen and (max-width: 1440px) {
 
     .background-case img {
-        width: auto;
         height: 100vh;
     }
 
